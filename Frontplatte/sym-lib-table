@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Frequenzzähler)(type Legacy)(uri "C:/Users/d028312/OneDrive - SAP SE/Projekte/Frequenzzähler/SchaltungKiCad/Libs/Frequenzzähler.lib")(options "")(descr ""))
+  (lib (name Frontplatte-rescue)(type Legacy)(uri ${KIPRJMOD}/Frontplatte-rescue.lib)(options "")(descr ""))
+)

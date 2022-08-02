@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MS05-1A87-75DHR
+D Standex Meder UMS reed relay, SPST, Closing Contact, with diode
+K Single Pole Reed Relay SPST
+F https://standexelectronics.com/de/produkte/ums-reed-relais/
+$ENDCMP
+#
+#End Doc Library

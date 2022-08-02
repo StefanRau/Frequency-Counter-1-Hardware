@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name Hauptplatine-eagle-import)(type Legacy)(uri ${KIPRJMOD}/Hauptplatine-eagle-import.lib)(options "")(descr ""))
+  (lib (name Grundplatine-eagle-import)(type Legacy)(uri "C:/Users/d028312/OneDrive - SAP SE/Projekte/Frequenzzähler/Schaltung Kopie/Grundplatine/Grundplatine-eagle-import.lib")(options "")(descr ""))
+  (lib (name Taktgenerator-eagle-import)(type Legacy)(uri "C:/Users/d028312/OneDrive - SAP SE/Projekte/Frequenzzähler/Schaltung Kopie/Taktgenerator/Taktgenerator-eagle-import.lib")(options "")(descr ""))
+  (lib (name Zähler-eagle-import)(type Legacy)(uri "C:/Users/d028312/OneDrive - SAP SE/Projekte/Frequenzzähler/Schaltung Kopie/Zähler/Zähler-eagle-import.lib")(options "")(descr ""))
+  (lib (name Hauptplatine-rescue)(type Legacy)(uri ${KIPRJMOD}/Hauptplatine-rescue.lib)(options "")(descr ""))
+)

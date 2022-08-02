@@ -1,0 +1,664 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_Coaxial J?
+U 1 1 6185882C
+P 1050 850
+F 0 "J?" H 978 1088 50  0000 C CNN
+F 1 "Conn_Coaxial" H 978 997 50  0000 C CNN
+F 2 "Connector_Coaxial:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal" H 1050 850 50  0001 C CNN
+F 3 " ~" H 1050 850 50  0001 C CNN
+	1    1050 850 
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61859B3C
+P 3750 5200
+F 0 "R?" H 3680 5154 50  0000 R CNN
+F 1 "1k" H 3680 5245 50  0000 R CNN
+F 2 "" V 3680 5200 50  0001 C CNN
+F 3 "~" H 3750 5200 50  0001 C CNN
+	1    3750 5200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Analog-rescue:MS05-1A87-75DHR-Relay K?
+U 1 1 61861D52
+P 2400 5400
+F 0 "K?" V 2832 5400 50  0000 C CNN
+F 1 "MS05-1A87-75DHR" V 2741 5400 50  0000 C CNN
+F 2 "Relay_THT:Relay_StandexMeder_UMS" H 2700 5350 50  0001 L CNN
+F 3 "" H 2400 5400 50  0001 C CNN
+	1    2400 5400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Analog-rescue:MS05-1A87-75DHR-Relay K?
+U 1 1 61864468
+P 2400 9600
+F 0 "K?" V 2832 9600 50  0000 C CNN
+F 1 "MS05-1A87-75DHR" V 2741 9600 50  0000 C CNN
+F 2 "Relay_THT:Relay_StandexMeder_UMS" H 2700 9550 50  0001 L CNN
+F 3 "" H 2400 9600 50  0001 C CNN
+	1    2400 9600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Analog-rescue:MS05-1A87-75DHR-Relay K?
+U 1 1 61864EC7
+P 2400 2100
+F 0 "K?" V 2832 2100 50  0000 C CNN
+F 1 "MS05-1A87-75DHR" V 2741 2100 50  0000 C CNN
+F 2 "Relay_THT:Relay_StandexMeder_UMS" H 2700 2050 50  0001 L CNN
+F 3 "" H 2400 2100 50  0001 C CNN
+	1    2400 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Analog-rescue:MS05-1A87-75DHR-Relay K?
+U 1 1 6186589D
+P 2400 1050
+F 0 "K?" V 2832 1050 50  0000 C CNN
+F 1 "MS05-1A87-75DHR" V 2741 1050 50  0000 C CNN
+F 2 "Relay_THT:Relay_StandexMeder_UMS" H 2700 1000 50  0001 L CNN
+F 3 "" H 2400 1050 50  0001 C CNN
+	1    2400 1050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 618B8F25
+P 3300 2250
+F 0 "R?" H 3370 2296 50  0000 L CNN
+F 1 "4,7k" H 3370 2205 50  0000 L CNN
+F 2 "" V 3230 2250 50  0001 C CNN
+F 3 "~" H 3300 2250 50  0001 C CNN
+	1    3300 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 618CD4EC
+P 1050 1650
+F 0 "#PWR?" H 1050 1400 50  0001 C CNN
+F 1 "GND" H 1055 1477 50  0000 C CNN
+F 2 "" H 1050 1650 50  0001 C CNN
+F 3 "" H 1050 1650 50  0001 C CNN
+	1    1050 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:AD797 IC?
+U 1 1 61866BEB
+P 4600 4250
+F 0 "IC?" H 4944 4296 50  0000 L CNN
+F 1 "AD797" H 4944 4205 50  0000 L CNN
+F 2 "" H 4650 4300 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD797.pdf" H 4650 4400 50  0001 C CNN
+	1    4600 4250
+	1    0    0    -1  
+$EndComp
+Text Notes 1500 800  0    50   ~ 0
+100V
+Text Notes 1500 1850 0    50   ~ 0
+10V
+Text Notes 1500 10400 0    50   ~ 0
+100µV
+Text Notes 1500 5150 0    50   ~ 0
+100mV
+Text Notes 1500 4100 0    50   ~ 0
+1V
+$Comp
+L power:GND #PWR?
+U 1 1 61869A5E
+P 3300 3250
+F 0 "#PWR?" H 3300 3000 50  0001 C CNN
+F 1 "GND" H 3305 3077 50  0000 C CNN
+F 2 "" H 3300 3250 50  0001 C CNN
+F 3 "" H 3300 3250 50  0001 C CNN
+	1    3300 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61874BA4
+P 3300 1100
+F 0 "R?" H 3370 1146 50  0000 L CNN
+F 1 "100k" H 3370 1055 50  0000 L CNN
+F 2 "" V 3230 1100 50  0001 C CNN
+F 3 "~" H 3300 1100 50  0001 C CNN
+	1    3300 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:BAT43 D?
+U 1 1 6188D864
+P 4000 2250
+F 0 "D?" V 3954 2330 50  0000 L CNN
+F 1 "BAT43" V 4045 2330 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4000 2075 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85660/bat42.pdf" H 4000 2250 50  0001 C CNN
+	1    4000 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6188D86A
+P 4500 2250
+F 0 "C?" H 4615 2296 50  0000 L CNN
+F 1 "C" H 4615 2205 50  0000 L CNN
+F 2 "" H 4538 2100 50  0001 C CNN
+F 3 "~" H 4500 2250 50  0001 C CNN
+	1    4500 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6188D870
+P 4500 2850
+F 0 "C?" H 4615 2896 50  0000 L CNN
+F 1 "C" H 4615 2805 50  0000 L CNN
+F 2 "" H 4538 2700 50  0001 C CNN
+F 3 "~" H 4500 2850 50  0001 C CNN
+	1    4500 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:BAT43 D?
+U 1 1 6188D876
+P 4000 2850
+F 0 "D?" V 3954 2930 50  0000 L CNN
+F 1 "BAT43" V 4045 2930 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4000 2675 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85660/bat42.pdf" H 4000 2850 50  0001 C CNN
+	1    4000 2850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4000 2400 4000 2550
+Connection ~ 4000 2550
+Wire Wire Line
+	4000 2550 4000 2700
+Wire Wire Line
+	4000 2550 4500 2550
+Wire Wire Line
+	4500 2550 4500 2700
+Wire Wire Line
+	4500 2400 4500 2550
+Connection ~ 4500 2550
+Text Notes 3400 2500 0    50   ~ 0
+5V
+Wire Wire Line
+	1050 1050 1050 1650
+Wire Wire Line
+	1250 850  1400 850 
+Wire Wire Line
+	2100 1900 1400 1900
+Wire Wire Line
+	1400 1900 1400 850 
+Connection ~ 1400 850 
+Wire Wire Line
+	1400 850  2100 850 
+Wire Wire Line
+	2700 1900 3300 1900
+Wire Wire Line
+	3300 1900 3300 2100
+Wire Wire Line
+	2700 850  3300 850 
+Wire Wire Line
+	3300 850  3300 950 
+Connection ~ 3300 1900
+Wire Wire Line
+	4000 2550 3300 2550
+$Comp
+L Device:R R?
+U 1 1 618AEBDA
+P 3300 2850
+F 0 "R?" H 3370 2896 50  0000 L CNN
+F 1 "4,7k" H 3370 2805 50  0000 L CNN
+F 2 "" V 3230 2850 50  0001 C CNN
+F 3 "~" H 3300 2850 50  0001 C CNN
+	1    3300 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 2700 3300 2550
+Connection ~ 3300 2550
+Wire Wire Line
+	2100 4150 1400 4150
+Connection ~ 1400 1900
+Wire Wire Line
+	3300 1250 3300 1900
+Wire Wire Line
+	3300 2400 3300 2550
+Wire Wire Line
+	3300 3000 3300 3150
+$Comp
+L Device:R R?
+U 1 1 618D82FF
+P 4850 3600
+F 0 "R?" H 4920 3646 50  0000 L CNN
+F 1 "100k" H 4920 3555 50  0000 L CNN
+F 2 "" V 4780 3600 50  0001 C CNN
+F 3 "~" H 4850 3600 50  0001 C CNN
+	1    4850 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 618D89B2
+P 3750 4150
+F 0 "R?" H 3820 4196 50  0000 L CNN
+F 1 "10k" H 3820 4105 50  0000 L CNN
+F 2 "" V 3680 4150 50  0001 C CNN
+F 3 "~" H 3750 4150 50  0001 C CNN
+	1    3750 4150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3600 4150 2700 4150
+Wire Wire Line
+	3900 4150 4050 4150
+Wire Wire Line
+	4700 3600 4600 3600
+Wire Wire Line
+	4050 3600 4050 4150
+Connection ~ 4050 4150
+Wire Wire Line
+	4900 4250 5300 4250
+Wire Wire Line
+	5300 4250 5300 3600
+Wire Wire Line
+	5300 3600 5000 3600
+Wire Wire Line
+	2100 5200 1400 5200
+Wire Wire Line
+	1400 1900 1400 4150
+Connection ~ 1400 4150
+Wire Wire Line
+	1400 4150 1400 5200
+Wire Wire Line
+	4050 4150 4050 4350
+Wire Wire Line
+	4050 5200 3900 5200
+$Comp
+L Device:R R?
+U 1 1 618F3BEB
+P 4600 6750
+F 0 "R?" H 4670 6796 50  0000 L CNN
+F 1 "100k" H 4670 6705 50  0000 L CNN
+F 2 "" V 4530 6750 50  0001 C CNN
+F 3 "~" H 4600 6750 50  0001 C CNN
+	1    4600 6750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4450 6750 4050 6750
+Wire Wire Line
+	5300 6750 4750 6750
+$Comp
+L Analog-rescue:MS05-1A87-75DHR-Relay K?
+U 1 1 618FB0C3
+P 2400 6450
+F 0 "K?" V 2832 6450 50  0000 C CNN
+F 1 "MS05-1A87-75DHR" V 2741 6450 50  0000 C CNN
+F 2 "Relay_THT:Relay_StandexMeder_UMS" H 2700 6400 50  0001 L CNN
+F 3 "" H 2400 6450 50  0001 C CNN
+	1    2400 6450
+	0    -1   -1   0   
+$EndComp
+Connection ~ 1400 5200
+Connection ~ 1400 7300
+Wire Wire Line
+	1400 8350 1400 7300
+Wire Wire Line
+	2100 8350 1400 8350
+Wire Wire Line
+	4050 8350 3900 8350
+Wire Wire Line
+	5300 7400 5300 6750
+Wire Wire Line
+	4900 7400 5300 7400
+Wire Wire Line
+	4050 7500 4300 7500
+Connection ~ 4050 7300
+Wire Wire Line
+	4050 6750 4050 7300
+Wire Wire Line
+	3900 7300 4050 7300
+$Comp
+L Amplifier_Operational:AD797 IC?
+U 1 1 618F3BE5
+P 4600 7400
+F 0 "IC?" H 4944 7446 50  0000 L CNN
+F 1 "AD797" H 4944 7355 50  0000 L CNN
+F 2 "" H 4650 7450 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD797.pdf" H 4650 7550 50  0001 C CNN
+	1    4600 7400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 7300 1400 5200
+Wire Wire Line
+	2100 7300 1400 7300
+Text Notes 1500 8300 0    50   ~ 0
+1mV
+Text Notes 1500 7250 0    50   ~ 0
+10mV
+$Comp
+L Analog-rescue:MS05-1A87-75DHR-Relay K?
+U 1 1 618639B4
+P 2400 8550
+F 0 "K?" V 2832 8550 50  0000 C CNN
+F 1 "MS05-1A87-75DHR" V 2741 8550 50  0000 C CNN
+F 2 "Relay_THT:Relay_StandexMeder_UMS" H 2700 8500 50  0001 L CNN
+F 3 "" H 2400 8550 50  0001 C CNN
+	1    2400 8550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Analog-rescue:MS05-1A87-75DHR-Relay K?
+U 1 1 61862DFC
+P 2400 7500
+F 0 "K?" V 2832 7500 50  0000 C CNN
+F 1 "MS05-1A87-75DHR" V 2741 7500 50  0000 C CNN
+F 2 "Relay_THT:Relay_StandexMeder_UMS" H 2700 7450 50  0001 L CNN
+F 3 "" H 2400 7500 50  0001 C CNN
+	1    2400 7500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2100 6250 1800 6250
+$Comp
+L Device:R R?
+U 1 1 618F3BDF
+P 3750 8350
+F 0 "R?" H 3680 8304 50  0000 R CNN
+F 1 "1k" H 3680 8395 50  0000 R CNN
+F 2 "" V 3680 8350 50  0001 C CNN
+F 3 "~" H 3750 8350 50  0001 C CNN
+	1    3750 8350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 618F3BF1
+P 3750 7300
+F 0 "R?" H 3820 7346 50  0000 L CNN
+F 1 "10k" H 3820 7255 50  0000 L CNN
+F 2 "" V 3680 7300 50  0001 C CNN
+F 3 "~" H 3750 7300 50  0001 C CNN
+	1    3750 7300
+	0    1    1    0   
+$EndComp
+$Comp
+L Analog-rescue:MS05-1A87-75DHR-Relay K?
+U 1 1 6192A591
+P 2400 10650
+F 0 "K?" V 2832 10650 50  0000 C CNN
+F 1 "MS05-1A87-75DHR" V 2741 10650 50  0000 C CNN
+F 2 "Relay_THT:Relay_StandexMeder_UMS" H 2700 10600 50  0001 L CNN
+F 3 "" H 2400 10650 50  0001 C CNN
+	1    2400 10650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3350 9050 1800 9050
+Wire Wire Line
+	1800 9050 1800 9400
+Wire Wire Line
+	1800 9400 2100 9400
+Connection ~ 1400 8350
+Wire Wire Line
+	2100 10450 1400 10450
+Wire Wire Line
+	1400 8350 1400 10450
+$Comp
+L Device:R R?
+U 1 1 61940C76
+P 4600 9900
+F 0 "R?" H 4670 9946 50  0000 L CNN
+F 1 "1M" H 4670 9855 50  0000 L CNN
+F 2 "" V 4530 9900 50  0001 C CNN
+F 3 "~" H 4600 9900 50  0001 C CNN
+	1    4600 9900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4450 9900 4050 9900
+Wire Wire Line
+	5300 9900 4750 9900
+Wire Wire Line
+	5300 10550 5300 9900
+Wire Wire Line
+	4900 10550 5300 10550
+Wire Wire Line
+	4050 10450 4300 10450
+Connection ~ 4050 10450
+Wire Wire Line
+	4050 9900 4050 10450
+Wire Wire Line
+	3900 10450 4050 10450
+Wire Wire Line
+	3600 10450 2700 10450
+$Comp
+L Amplifier_Operational:AD797 IC?
+U 1 1 61940C88
+P 4600 10550
+F 0 "IC?" H 4944 10596 50  0000 L CNN
+F 1 "AD797" H 4944 10505 50  0000 L CNN
+F 2 "" H 4650 10600 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD797.pdf" H 4650 10700 50  0001 C CNN
+	1    4600 10550
+	1    0    0    -1  
+$EndComp
+Connection ~ 5300 9900
+$Comp
+L Device:R R?
+U 1 1 61940C96
+P 3750 10450
+F 0 "R?" H 3820 10496 50  0000 L CNN
+F 1 "1k" H 3820 10405 50  0000 L CNN
+F 2 "" V 3680 10450 50  0001 C CNN
+F 3 "~" H 3750 10450 50  0001 C CNN
+	1    3750 10450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2700 5200 3350 5200
+Wire Wire Line
+	3350 5200 3350 5900
+Wire Wire Line
+	3350 5900 1800 5900
+Wire Wire Line
+	1800 5900 1800 6250
+Connection ~ 3350 5200
+Wire Wire Line
+	3350 5200 3600 5200
+Wire Wire Line
+	5300 6250 5300 6750
+Connection ~ 5300 6750
+Wire Wire Line
+	2700 6250 5300 6250
+Wire Wire Line
+	2700 9400 5300 9400
+Wire Wire Line
+	5300 9400 5300 9900
+$Comp
+L Device:R_POT_TRIM RV?
+U 1 1 61960594
+P 4850 4850
+F 0 "RV?" V 4643 4850 50  0000 C CNN
+F 1 "R_POT_TRIM" V 4734 4850 50  0000 C CNN
+F 2 "" H 4850 4850 50  0001 C CNN
+F 3 "~" H 4850 4850 50  0001 C CNN
+	1    4850 4850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4700 4850 4600 4850
+Wire Wire Line
+	5000 4850 5250 4850
+Wire Wire Line
+	5250 4850 5250 4600
+Wire Wire Line
+	5250 4600 4700 4600
+Wire Wire Line
+	4700 4600 4700 4550
+$Comp
+L power:GND #PWR?
+U 1 1 61965728
+P 4850 5100
+F 0 "#PWR?" H 4850 4850 50  0001 C CNN
+F 1 "GND" H 4855 4927 50  0000 C CNN
+F 2 "" H 4850 5100 50  0001 C CNN
+F 3 "" H 4850 5100 50  0001 C CNN
+	1    4850 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 4550 4500 5050
+Wire Wire Line
+	4500 5050 4850 5050
+Wire Wire Line
+	4850 5050 4850 5100
+Wire Wire Line
+	4850 5050 4850 5000
+Connection ~ 4850 5050
+Wire Wire Line
+	4600 4550 4600 4850
+Text Notes 5350 7350 0    50   ~ 0
+100mV
+Text Notes 5350 4200 0    50   ~ 0
+5V
+Text Notes 5350 10400 0    50   ~ 0
+10mV
+Wire Wire Line
+	2700 8350 3600 8350
+Wire Wire Line
+	2700 7300 3600 7300
+Wire Wire Line
+	3350 9050 3350 5900
+Connection ~ 3350 5900
+$Comp
+L power:VCC #PWR?
+U 1 1 6197E334
+P 4000 1750
+F 0 "#PWR?" H 4000 1600 50  0001 C CNN
+F 1 "VCC" H 4015 1923 50  0000 C CNN
+F 2 "" H 4000 1750 50  0001 C CNN
+F 3 "" H 4000 1750 50  0001 C CNN
+	1    4000 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 1750 4000 1900
+Wire Wire Line
+	4000 1900 4500 1900
+Wire Wire Line
+	4500 1900 4500 2100
+Connection ~ 4000 1900
+Wire Wire Line
+	4000 1900 4000 2100
+Wire Wire Line
+	3300 3150 4000 3150
+Wire Wire Line
+	4500 3150 4500 3000
+Connection ~ 3300 3150
+Wire Wire Line
+	3300 3150 3300 3250
+Wire Wire Line
+	4000 3000 4000 3150
+Connection ~ 4000 3150
+Wire Wire Line
+	4000 3150 4500 3150
+Wire Wire Line
+	4050 7300 4050 7500
+Connection ~ 4050 7500
+Wire Wire Line
+	4050 7500 4050 8350
+Wire Wire Line
+	4300 4350 4050 4350
+Connection ~ 4050 4350
+Wire Wire Line
+	4050 4350 4050 5200
+Wire Wire Line
+	4300 4150 4150 4150
+Wire Wire Line
+	4150 4150 4150 5050
+Wire Wire Line
+	4150 5050 4500 5050
+Connection ~ 4500 5050
+$Comp
+L power:VCC #PWR?
+U 1 1 6199C7A0
+P 4500 3500
+F 0 "#PWR?" H 4500 3350 50  0001 C CNN
+F 1 "VCC" H 4515 3673 50  0000 C CNN
+F 2 "" H 4500 3500 50  0001 C CNN
+F 3 "" H 4500 3500 50  0001 C CNN
+	1    4500 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 3950 4500 3500
+$Comp
+L Device:C C?
+U 1 1 619A4B8F
+P 4850 3400
+F 0 "C?" V 4598 3400 50  0000 C CNN
+F 1 "5pF" V 4689 3400 50  0000 C CNN
+F 2 "" H 4888 3250 50  0001 C CNN
+F 3 "~" H 4850 3400 50  0001 C CNN
+	1    4850 3400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4600 3600 4600 3400
+Wire Wire Line
+	4600 3400 4700 3400
+Connection ~ 4600 3600
+Wire Wire Line
+	4600 3600 4050 3600
+Wire Wire Line
+	5000 3400 5300 3400
+Wire Wire Line
+	5300 3400 5300 3600
+Connection ~ 5300 3600
+$Comp
+L Amplifier_Operational:LT6237 U?
+U 1 1 619AD876
+P 6100 3700
+F 0 "U?" H 6100 4067 50  0000 C CNN
+F 1 "LT6237" H 6100 3976 50  0000 C CNN
+F 2 "" H 6100 3700 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/623637fb.pdf" H 6100 3700 50  0001 C CNN
+	1    6100 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Analog-rescue:MS05-1A87-75DHR-Relay K?
+U 1 1 6185FEFA
+P 2400 4350
+F 0 "K?" V 2832 4350 50  0000 C CNN
+F 1 "MS05-1A87-75DHR" V 2741 4350 50  0000 C CNN
+F 2 "Relay_THT:Relay_StandexMeder_UMS" H 2700 4300 50  0001 L CNN
+F 3 "" H 2400 4350 50  0001 C CNN
+	1    2400 4350
+	0    -1   -1   0   
+$EndComp
+$EndSCHEMATC

@@ -1,0 +1,929 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\d028312\OneDrive - SAP SE\Projekte\Frequency Counter\SchaltungKiCad\Frontplatte\Frontplatte.kicad_sch</source>
+    <date>07.03.2022 16:20:37</date>
+    <tool>Eeschema (6.0.2)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Frontplatte.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Rect_L10.0mm_W4.0mm_P7.50mm_FKS3_FKP3</footprint>
+      <libsource lib="Frontplatte-rescue" part="C-Device-Frontplatte-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Frontplatte.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006145272b</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <libsource lib="Frontplatte-rescue" part="LED-Device-Frontplatte-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Frontplatte.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000606422cf</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <libsource lib="Frontplatte-rescue" part="LED-Device-Frontplatte-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Frontplatte.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006060b880</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <libsource lib="Frontplatte-rescue" part="LED-Device-Frontplatte-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Frontplatte.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006060fe01</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <libsource lib="Frontplatte-rescue" part="LED-Device-Frontplatte-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Frontplatte.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060610696</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <libsource lib="Frontplatte-rescue" part="LED-Device-Frontplatte-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Frontplatte.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060610d85</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <libsource lib="Frontplatte-rescue" part="LED-Device-Frontplatte-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Frontplatte.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060611460</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <libsource lib="Frontplatte-rescue" part="LED-Device-Frontplatte-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Frontplatte.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006067181d</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <libsource lib="Frontplatte-rescue" part="LED-Device-Frontplatte-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Frontplatte.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000607114e5</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <libsource lib="Frontplatte-rescue" part="LED-Device-Frontplatte-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Frontplatte.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006072096a</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x04_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <libsource lib="Frontplatte-rescue" part="Conn_01x04_Male-Connector-Frontplatte-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Frontplatte.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000606a7afb</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x04_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <libsource lib="Frontplatte-rescue" part="Conn_01x04_Male-Connector-Frontplatte-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Frontplatte.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006061f515</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x04_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <libsource lib="Frontplatte-rescue" part="Conn_01x04_Male-Connector-Frontplatte-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Frontplatte.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000606c3173</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x04_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <libsource lib="Frontplatte-rescue" part="Conn_01x04_Male-Connector-Frontplatte-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Frontplatte.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060711504</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x04_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <libsource lib="Frontplatte-rescue" part="Conn_01x04_Male-Connector-Frontplatte-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Frontplatte.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060720989</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>220</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Frontplatte-rescue" part="R-Device-Frontplatte-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Frontplatte.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000606422d5</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>4,7k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="Frontplatte-rescue" part="R-Device-Frontplatte-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Frontplatte.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060603bf3</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>220</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Frontplatte-rescue" part="R-Device-Frontplatte-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Frontplatte.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006060e331</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>4,7k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="Frontplatte-rescue" part="R-Device-Frontplatte-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Frontplatte.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060605fbd</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>220</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Frontplatte-rescue" part="R-Device-Frontplatte-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Frontplatte.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006060fe07</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>4,7k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="Frontplatte-rescue" part="R-Device-Frontplatte-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Frontplatte.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060606556</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>220</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Frontplatte-rescue" part="R-Device-Frontplatte-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Frontplatte.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006061069c</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>4,7k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="Frontplatte-rescue" part="R-Device-Frontplatte-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Frontplatte.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060606ce8</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>220</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Frontplatte-rescue" part="R-Device-Frontplatte-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Frontplatte.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060610d8b</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>4,7k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="Frontplatte-rescue" part="R-Device-Frontplatte-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Frontplatte.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006060707a</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>220</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Frontplatte-rescue" part="R-Device-Frontplatte-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Frontplatte.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060611466</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>4,7k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Frontplatte-rescue" part="R-Device-Frontplatte-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Frontplatte.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060607471</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>4,7k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Frontplatte-rescue" part="R-Device-Frontplatte-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Frontplatte.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060607729</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>4,7k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <libsource lib="Frontplatte-rescue" part="R-Device-Frontplatte-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Frontplatte.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060671817</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>220</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <libsource lib="Frontplatte-rescue" part="R-Device-Frontplatte-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Frontplatte.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060671823</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>4,7k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <libsource lib="Frontplatte-rescue" part="R-Device-Frontplatte-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Frontplatte.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000607114df</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>220</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <libsource lib="Frontplatte-rescue" part="R-Device-Frontplatte-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Frontplatte.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000607114eb</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>4,7k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <libsource lib="Frontplatte-rescue" part="R-Device-Frontplatte-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Frontplatte.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060720964</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>220</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <libsource lib="Frontplatte-rescue" part="R-Device-Frontplatte-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Frontplatte.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060720970</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>4,7k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Frontplatte-rescue" part="R-Device-Frontplatte-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Frontplatte.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006130c737</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>4,7k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Frontplatte-rescue" part="R-Device-Frontplatte-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Frontplatte.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006130e8e9</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>4,7k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Frontplatte-rescue" part="R-Device-Frontplatte-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Frontplatte.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006130ede2</tstamps>
+    </comp>
+    <comp ref="S1">
+      <value>SCHADOW_Button</value>
+      <footprint>Libs:SCHADOW_Button</footprint>
+      <libsource lib="Frontplatte-rescue" part="SCHADOW_Button-Frequenzzähler-Frontplatte-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Frontplatte.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000605e4eed</tstamps>
+    </comp>
+    <comp ref="S2">
+      <value>SCHADOW_Button</value>
+      <footprint>Libs:SCHADOW_Button</footprint>
+      <libsource lib="Frontplatte-rescue" part="SCHADOW_Button-Frequenzzähler-Frontplatte-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Frontplatte.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000605e7ea6</tstamps>
+    </comp>
+    <comp ref="S3">
+      <value>SCHADOW_Button</value>
+      <footprint>Libs:SCHADOW_Button</footprint>
+      <libsource lib="Frontplatte-rescue" part="SCHADOW_Button-Frequenzzähler-Frontplatte-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Frontplatte.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000605f1c58</tstamps>
+    </comp>
+    <comp ref="S4">
+      <value>SCHADOW_Button</value>
+      <footprint>Libs:SCHADOW_Button</footprint>
+      <libsource lib="Frontplatte-rescue" part="SCHADOW_Button-Frequenzzähler-Frontplatte-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Frontplatte.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000605f2852</tstamps>
+    </comp>
+    <comp ref="S5">
+      <value>SCHADOW_Button</value>
+      <footprint>Libs:SCHADOW_Button</footprint>
+      <libsource lib="Frontplatte-rescue" part="SCHADOW_Button-Frequenzzähler-Frontplatte-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Frontplatte.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000605f3054</tstamps>
+    </comp>
+    <comp ref="S6">
+      <value>SCHADOW_Button</value>
+      <footprint>Libs:SCHADOW_Button</footprint>
+      <libsource lib="Frontplatte-rescue" part="SCHADOW_Button-Frequenzzähler-Frontplatte-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Frontplatte.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000605f3e7c</tstamps>
+    </comp>
+    <comp ref="S7">
+      <value>SCHADOW_Button</value>
+      <footprint>Libs:SCHADOW_Button</footprint>
+      <libsource lib="Frontplatte-rescue" part="SCHADOW_Button-Frequenzzähler-Frontplatte-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Frontplatte.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000605f4660</tstamps>
+    </comp>
+    <comp ref="S8">
+      <value>SCHADOW_Button</value>
+      <footprint>Libs:SCHADOW_Button</footprint>
+      <libsource lib="Frontplatte-rescue" part="SCHADOW_Button-Frequenzzähler-Frontplatte-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Frontplatte.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006066c91a</tstamps>
+    </comp>
+    <comp ref="S9">
+      <value>SCHADOW_Button</value>
+      <footprint>Libs:SCHADOW_Button</footprint>
+      <libsource lib="Frontplatte-rescue" part="SCHADOW_Button-Frequenzzähler-Frontplatte-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Frontplatte.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000607114d9</tstamps>
+    </comp>
+    <comp ref="S10">
+      <value>SCHADOW_Button</value>
+      <footprint>Libs:SCHADOW_Button</footprint>
+      <libsource lib="Frontplatte-rescue" part="SCHADOW_Button-Frequenzzähler-Frontplatte-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Frontplatte.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006072095e</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_DIP_x04</value>
+      <footprint>Button_Switch_THT:SW_DIP_SPSTx04_Slide_9.78x12.34mm_W7.62mm_P2.54mm</footprint>
+      <libsource lib="Frontplatte-rescue" part="SW_DIP_x04-Switch-Frontplatte-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Frontplatte.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006126d6ab</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>MCP23017_SP</value>
+      <footprint>Package_DIP:DIP-28_W7.62mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf</datasheet>
+      <libsource lib="Frontplatte-rescue" part="MCP23017_SP-Interface_Expansion-Frontplatte-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Frontplatte.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000605e1408</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Frontplatte-rescue" part="C-Device-Frontplatte-rescue">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-Device-Frontplatte-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Frontplatte-rescue" part="Conn_01x04_Male-Connector-Frontplatte-rescue">
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Male-Connector-Frontplatte-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Frontplatte-rescue" part="LED-Device-Frontplatte-rescue">
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED-Device-Frontplatte-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Frontplatte-rescue" part="MCP23017_SP-Interface_Expansion-Frontplatte-rescue">
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP23017_SP-Interface_Expansion-Frontplatte-rescue</field>
+        <field name="Footprint">Package_DIP:DIP-28_W7.62mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GPB0" type="bidirectional"/>
+        <pin num="2" name="GPB1" type="bidirectional"/>
+        <pin num="3" name="GPB2" type="bidirectional"/>
+        <pin num="4" name="GPB3" type="bidirectional"/>
+        <pin num="5" name="GPB4" type="bidirectional"/>
+        <pin num="6" name="GPB5" type="bidirectional"/>
+        <pin num="7" name="GPB6" type="bidirectional"/>
+        <pin num="8" name="GPB7" type="bidirectional"/>
+        <pin num="9" name="VDD" type="power_in"/>
+        <pin num="10" name="VSS" type="power_in"/>
+        <pin num="11" name="NC" type="no_connect"/>
+        <pin num="12" name="SCK" type="input"/>
+        <pin num="13" name="SDA" type="bidirectional"/>
+        <pin num="14" name="NC" type="no_connect"/>
+        <pin num="15" name="A0" type="input"/>
+        <pin num="16" name="A1" type="input"/>
+        <pin num="17" name="A2" type="input"/>
+        <pin num="18" name="~{RESET}" type="input"/>
+        <pin num="19" name="INTB" type="tri_state"/>
+        <pin num="20" name="INTA" type="tri_state"/>
+        <pin num="21" name="GPA0" type="bidirectional"/>
+        <pin num="22" name="GPA1" type="bidirectional"/>
+        <pin num="23" name="GPA2" type="bidirectional"/>
+        <pin num="24" name="GPA3" type="bidirectional"/>
+        <pin num="25" name="GPA4" type="bidirectional"/>
+        <pin num="26" name="GPA5" type="bidirectional"/>
+        <pin num="27" name="GPA6" type="bidirectional"/>
+        <pin num="28" name="GPA7" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Frontplatte-rescue" part="R-Device-Frontplatte-rescue">
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-Device-Frontplatte-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Frontplatte-rescue" part="SCHADOW_Button-Frequenzzähler-Frontplatte-rescue">
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">SCHADOW_Button-Frequenzzähler-Frontplatte-rescue</field>
+        <field name="Footprint">Libs:SCHADOW_Button</field>
+      </fields>
+      <pins>
+        <pin num="1a" name="A" type="passive"/>
+        <pin num="1b" name="" type="passive"/>
+        <pin num="2a" name="C" type="passive"/>
+        <pin num="2b" name="" type="passive"/>
+        <pin num="3a" name="B" type="passive"/>
+        <pin num="3b" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Frontplatte-rescue" part="SW_DIP_x04-Switch-Frontplatte-rescue">
+      <footprints>
+        <fp>SW?DIP?x4*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_DIP_x04-Switch-Frontplatte-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+        <pin num="7" name="" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Frontplatte-rescue">
+      <uri>C:\Users\d028312\OneDrive - SAP SE\Projekte\Frequency Counter\SchaltungKiCad\Frontplatte/Frontplatte-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="S1" pin="2a" pinfunction="C" pintype="passive"/>
+      <node ref="S1" pin="2b" pintype="passive"/>
+      <node ref="S2" pin="2a" pinfunction="C" pintype="passive"/>
+      <node ref="S2" pin="2b" pintype="passive"/>
+      <node ref="S3" pin="2a" pinfunction="C" pintype="passive"/>
+      <node ref="S3" pin="2b" pintype="passive"/>
+      <node ref="S4" pin="2a" pinfunction="C" pintype="passive"/>
+      <node ref="S4" pin="2b" pintype="passive"/>
+      <node ref="S5" pin="2a" pinfunction="C" pintype="passive"/>
+      <node ref="S5" pin="2b" pintype="passive"/>
+      <node ref="S6" pin="2a" pinfunction="C" pintype="passive"/>
+      <node ref="S6" pin="2b" pintype="passive"/>
+      <node ref="S7" pin="2a" pinfunction="C" pintype="passive"/>
+      <node ref="S7" pin="2b" pintype="passive"/>
+      <node ref="SW1" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="3" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="~{RESET}" pintype="input"/>
+      <node ref="U1" pin="9" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="2" name="Net-(C1-Pad2)">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="VSS" pintype="power_in"/>
+    </net>
+    <net code="3" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="4" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(D6-Pad2)">
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(D7-Pad1)">
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(D7-Pad2)">
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(D8-Pad1)">
+      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(D8-Pad2)">
+      <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(D9-Pad1)">
+      <node ref="D9" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(D9-Pad2)">
+      <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="SCK" pintype="input"/>
+    </net>
+    <net code="16" name="Net-(J1-Pad3)">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="Net-(J3-Pad1)">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(J3-Pad2)">
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="S8" pin="3a" pinfunction="B" pintype="passive"/>
+      <node ref="S8" pin="3b" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(J3-Pad4)">
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="S8" pin="2a" pinfunction="C" pintype="passive"/>
+      <node ref="S8" pin="2b" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(J4-Pad1)">
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(J4-Pad2)">
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="S9" pin="3a" pinfunction="B" pintype="passive"/>
+      <node ref="S9" pin="3b" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(J4-Pad4)">
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="S9" pin="2a" pinfunction="C" pintype="passive"/>
+      <node ref="S9" pin="2b" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(J5-Pad1)">
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(J5-Pad2)">
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="S10" pin="3a" pinfunction="B" pintype="passive"/>
+      <node ref="S10" pin="3b" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(J5-Pad4)">
+      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="S10" pin="2a" pinfunction="C" pintype="passive"/>
+      <node ref="S10" pin="2b" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(R2-Pad1)">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="S1" pin="3a" pinfunction="B" pintype="passive"/>
+      <node ref="S1" pin="3b" pintype="passive"/>
+      <node ref="U1" pin="24" pinfunction="GPA3" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="Net-(R3-Pad1)">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="GPB0" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="Net-(R4-Pad1)">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="S2" pin="3a" pinfunction="B" pintype="passive"/>
+      <node ref="S2" pin="3b" pintype="passive"/>
+      <node ref="U1" pin="25" pinfunction="GPA4" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="Net-(R5-Pad1)">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="GPB1" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="Net-(R6-Pad1)">
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="S3" pin="3a" pinfunction="B" pintype="passive"/>
+      <node ref="S3" pin="3b" pintype="passive"/>
+      <node ref="U1" pin="26" pinfunction="GPA5" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="Net-(R7-Pad1)">
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="GPB2" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="Net-(R8-Pad1)">
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="S4" pin="3a" pinfunction="B" pintype="passive"/>
+      <node ref="S4" pin="3b" pintype="passive"/>
+      <node ref="U1" pin="27" pinfunction="GPA6" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="Net-(R9-Pad1)">
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="GPB3" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="Net-(R10-Pad1)">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="S5" pin="3a" pinfunction="B" pintype="passive"/>
+      <node ref="S5" pin="3b" pintype="passive"/>
+      <node ref="U1" pin="28" pinfunction="GPA7" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="Net-(R11-Pad1)">
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="GPB4" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="Net-(R12-Pad1)">
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="S6" pin="3a" pinfunction="B" pintype="passive"/>
+      <node ref="S6" pin="3b" pintype="passive"/>
+      <node ref="U1" pin="22" pinfunction="GPA1" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="Net-(R13-Pad1)">
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="S7" pin="3a" pinfunction="B" pintype="passive"/>
+      <node ref="S7" pin="3b" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="GPA0" pintype="bidirectional"/>
+    </net>
+    <net code="38" name="Net-(R20-Pad1)">
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="8" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="A2" pintype="input"/>
+    </net>
+    <net code="39" name="Net-(R21-Pad1)">
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="7" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="A1" pintype="input"/>
+    </net>
+    <net code="40" name="Net-(R22-Pad1)">
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="6" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="A0" pintype="input"/>
+    </net>
+    <net code="41" name="unconnected-(S1-Pad1a)">
+      <node ref="S1" pin="1a" pinfunction="A" pintype="passive+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(S1-Pad1b)">
+      <node ref="S1" pin="1b" pintype="passive+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(S2-Pad1a)">
+      <node ref="S2" pin="1a" pinfunction="A" pintype="passive+no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(S2-Pad1b)">
+      <node ref="S2" pin="1b" pintype="passive+no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(S3-Pad1a)">
+      <node ref="S3" pin="1a" pinfunction="A" pintype="passive+no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(S3-Pad1b)">
+      <node ref="S3" pin="1b" pintype="passive+no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(S4-Pad1a)">
+      <node ref="S4" pin="1a" pinfunction="A" pintype="passive+no_connect"/>
+    </net>
+    <net code="48" name="unconnected-(S4-Pad1b)">
+      <node ref="S4" pin="1b" pintype="passive+no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(S5-Pad1a)">
+      <node ref="S5" pin="1a" pinfunction="A" pintype="passive+no_connect"/>
+    </net>
+    <net code="50" name="unconnected-(S5-Pad1b)">
+      <node ref="S5" pin="1b" pintype="passive+no_connect"/>
+    </net>
+    <net code="51" name="unconnected-(S6-Pad1a)">
+      <node ref="S6" pin="1a" pinfunction="A" pintype="passive+no_connect"/>
+    </net>
+    <net code="52" name="unconnected-(S6-Pad1b)">
+      <node ref="S6" pin="1b" pintype="passive+no_connect"/>
+    </net>
+    <net code="53" name="unconnected-(S7-Pad1a)">
+      <node ref="S7" pin="1a" pinfunction="A" pintype="passive+no_connect"/>
+    </net>
+    <net code="54" name="unconnected-(S7-Pad1b)">
+      <node ref="S7" pin="1b" pintype="passive+no_connect"/>
+    </net>
+    <net code="55" name="unconnected-(S8-Pad1a)">
+      <node ref="S8" pin="1a" pinfunction="A" pintype="passive+no_connect"/>
+    </net>
+    <net code="56" name="unconnected-(S8-Pad1b)">
+      <node ref="S8" pin="1b" pintype="passive+no_connect"/>
+    </net>
+    <net code="57" name="unconnected-(S9-Pad1a)">
+      <node ref="S9" pin="1a" pinfunction="A" pintype="passive+no_connect"/>
+    </net>
+    <net code="58" name="unconnected-(S9-Pad1b)">
+      <node ref="S9" pin="1b" pintype="passive+no_connect"/>
+    </net>
+    <net code="59" name="unconnected-(S10-Pad1a)">
+      <node ref="S10" pin="1a" pinfunction="A" pintype="passive+no_connect"/>
+    </net>
+    <net code="60" name="unconnected-(S10-Pad1b)">
+      <node ref="S10" pin="1b" pintype="passive+no_connect"/>
+    </net>
+    <net code="61" name="unconnected-(SW1-Pad4)">
+      <node ref="SW1" pin="4" pintype="passive+no_connect"/>
+    </net>
+    <net code="62" name="unconnected-(SW1-Pad5)">
+      <node ref="SW1" pin="5" pintype="passive+no_connect"/>
+    </net>
+    <net code="63" name="unconnected-(U1-Pad6)">
+      <node ref="U1" pin="6" pinfunction="GPB5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="64" name="unconnected-(U1-Pad7)">
+      <node ref="U1" pin="7" pinfunction="GPB6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(U1-Pad8)">
+      <node ref="U1" pin="8" pinfunction="GPB7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(U1-Pad11)">
+      <node ref="U1" pin="11" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="67" name="unconnected-(U1-Pad14)">
+      <node ref="U1" pin="14" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="68" name="unconnected-(U1-Pad19)">
+      <node ref="U1" pin="19" pinfunction="INTB" pintype="tri_state+no_connect"/>
+    </net>
+    <net code="69" name="unconnected-(U1-Pad20)">
+      <node ref="U1" pin="20" pinfunction="INTA" pintype="tri_state+no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(U1-Pad23)">
+      <node ref="U1" pin="23" pinfunction="GPA2" pintype="bidirectional+no_connect"/>
+    </net>
+  </nets>
+</export>
