@@ -1,0 +1,11 @@
+.pio
+.100 MHz TTL CMOS/.Gerber
+.Analog/.Gerber
+.Frontplatte/.Gerber
+.Hauptplatine/.Gerber
+.100 MHz TTL CMOS/.100 MHz TTL CMOS-backups
+.Analog/.Analog-backups
+.Frontplatte/.Frontplatte-backups
+.Hauptplatine/.Hauptplatine-backups
+.Libs
+.Libs.pretty
