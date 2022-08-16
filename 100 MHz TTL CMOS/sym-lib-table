@@ -1,5 +1,6 @@
 (sym_lib_table
-  (lib (name MS05-1A87-75DHR)(type Legacy)(uri ${KIPRJMOD}/MS05-1A87-75DHR.lib)(options "")(descr ""))
-  (lib (name Frequenzzähler)(type Legacy)(uri "C:/SAP/Projekte/Frequenzzähler/SchaltungKiCad/100 MHz TTL CMOS/100 MHz TTL CMOS-cache.lib")(options "")(descr ""))
-  (lib (name 100-MHz-TTL-CMOS-rescue)(type Legacy)(uri "${KIPRJMOD}/100 MHz TTL CMOS-rescue.lib")(options "")(descr ""))
+  (lib (name "MS05-1A87-75DHR")(type "Legacy")(uri "${KIPRJMOD}/MS05-1A87-75DHR.lib")(options "")(descr ""))
+  (lib (name "Frequenzzähler")(type "Legacy")(uri "C:/SAP/Projekte/Frequenzzähler/SchaltungKiCad/100 MHz TTL CMOS/100 MHz TTL CMOS-cache.lib")(options "")(descr ""))
+  (lib (name "100-MHz-TTL-CMOS-rescue")(type "Legacy")(uri "${KIPRJMOD}/100 MHz TTL CMOS-rescue.lib")(options "")(descr ""))
+  (lib (name "New_Library")(type "KiCad")(uri "C:/Users/d028312/OneDrive - SAP SE/Documents/New_Library.kicad_sym")(options "")(descr ""))
 )
