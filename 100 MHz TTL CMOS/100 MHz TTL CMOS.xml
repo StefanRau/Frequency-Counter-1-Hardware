@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>C:\Projekte\Frequency Counter\V1.0\SchaltungKiCad\100 MHz TTL CMOS\100 MHz TTL CMOS.kicad_sch</source>
-    <date>16.08.2022 20:12:47</date>
+    <source>C:\Stefan\Backup\Projekte\Frequency Counter\V1.0\SchaltungKiCad\100 MHz TTL CMOS\100 MHz TTL CMOS.kicad_sch</source>
+    <date>16.08.2022 20:28:54</date>
     <tool>Eeschema (6.0.5)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -643,7 +643,7 @@
   </libparts>
   <libraries>
     <library logical="100-MHz-TTL-CMOS-rescue">
-      <uri>C:\Projekte\Frequency Counter\V1.0\SchaltungKiCad\100 MHz TTL CMOS/100 MHz TTL CMOS-rescue.lib</uri>
+      <uri>C:\Stefan\Backup\Projekte\Frequency Counter\V1.0\SchaltungKiCad\100 MHz TTL CMOS/100 MHz TTL CMOS-rescue.lib</uri>
     </library>
     <library logical="Memory_EEPROM">
       <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Memory_EEPROM.kicad_sym</uri>
