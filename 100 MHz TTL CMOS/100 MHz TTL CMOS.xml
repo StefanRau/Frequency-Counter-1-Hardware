@@ -1,0 +1,975 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Projekte\Frequency Counter\V1.0\SchaltungKiCad\100 MHz TTL CMOS\100 MHz TTL CMOS.kicad_sch</source>
+    <date>16.08.2022 20:12:47</date>
+    <tool>Eeschema (6.0.5)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>100 MHz TTL CMOS.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Rect_L10.0mm_W4.0mm_P7.50mm_FKS3_FKP3</footprint>
+      <libsource lib="100-MHz-TTL-CMOS-rescue" part="C-Device-100-MHz-TTL-CMOS-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="100 MHz TTL CMOS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000606bdf25</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Rect_L10.0mm_W4.0mm_P7.50mm_FKS3_FKP3</footprint>
+      <libsource lib="100-MHz-TTL-CMOS-rescue" part="C-Device-100-MHz-TTL-CMOS-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="100 MHz TTL CMOS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000618df96d</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Rect_L10.0mm_W4.0mm_P7.50mm_FKS3_FKP3</footprint>
+      <libsource lib="100-MHz-TTL-CMOS-rescue" part="C-Device-100-MHz-TTL-CMOS-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="100 MHz TTL CMOS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000607d26c0</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>10pF</value>
+      <footprint>Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="100-MHz-TTL-CMOS-rescue" part="C-Device-100-MHz-TTL-CMOS-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="100 MHz TTL CMOS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006054c620</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>10pF</value>
+      <footprint>Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="100-MHz-TTL-CMOS-rescue" part="C-Device-100-MHz-TTL-CMOS-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="100 MHz TTL CMOS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006054d2ca</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>BAT43</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/85660/bat42.pdf</datasheet>
+      <libsource lib="100-MHz-TTL-CMOS-rescue" part="BAT43-Diode-100-MHz-TTL-CMOS-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="100 MHz TTL CMOS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006051af19</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>BAT43</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/85660/bat42.pdf</datasheet>
+      <libsource lib="100-MHz-TTL-CMOS-rescue" part="BAT43-Diode-100-MHz-TTL-CMOS-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="100 MHz TTL CMOS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006051c879</tstamps>
+    </comp>
+    <comp ref="IC1">
+      <value>74LS14</value>
+      <footprint>Package_DIP:DIP-14_W7.62mm_LongPads</footprint>
+      <libsource lib="100-MHz-TTL-CMOS-rescue" part="74HC14-74xx-100-MHz-TTL-CMOS-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="100 MHz TTL CMOS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060c5254a 00000000-0000-0000-0000-000060c5d0fb 00000000-0000-0000-0000-000060c5c0e1 00000000-0000-0000-0000-000060c51f13 00000000-0000-0000-0000-000060c4f606 00000000-0000-0000-0000-0000605881c7 00000000-0000-0000-0000-00006052c033</tstamps>
+    </comp>
+    <comp ref="IC2">
+      <value>MCP23017_SO</value>
+      <footprint>Package_DIP:DIP-28_W7.62mm_LongPads</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf</datasheet>
+      <libsource lib="100-MHz-TTL-CMOS-rescue" part="MCP23017_SO-Interface_Expansion-100-MHz-TTL-CMOS-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="100 MHz TTL CMOS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006060a71d</tstamps>
+    </comp>
+    <comp ref="IC3">
+      <value>74HC14</value>
+      <footprint>Package_DIP:DIP-14_W7.62mm_LongPads</footprint>
+      <libsource lib="100-MHz-TTL-CMOS-rescue" part="74HC14-74xx-100-MHz-TTL-CMOS-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="100 MHz TTL CMOS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060531f9a 00000000-0000-0000-0000-000060530b18 00000000-0000-0000-0000-00006058e263 00000000-0000-0000-0000-0000605b16aa 00000000-0000-0000-0000-00006052a455 00000000-0000-0000-0000-00006052998c 00000000-0000-0000-0000-000060525e26</tstamps>
+    </comp>
+    <comp ref="IC4">
+      <value>24LC256</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm_LongPads</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/devicedoc/21203m.pdf</datasheet>
+      <libsource lib="Memory_EEPROM" part="24LC256" description="I2C Serial EEPROM, 256Kb, DIP-8/SOIC-8/TSSOP-8/DFN-8"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="100 MHz TTL CMOS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006148c7e1</tstamps>
+    </comp>
+    <comp ref="IC5">
+      <value>74HC151</value>
+      <footprint>Package_DIP:DIP-16_W7.62mm_LongPads</footprint>
+      <libsource lib="100-MHz-TTL-CMOS-rescue" part="74LS151-74xx-100-MHz-TTL-CMOS-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="100 MHz TTL CMOS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006086a383</tstamps>
+    </comp>
+    <comp ref="IC6">
+      <value>ULN2003</value>
+      <footprint>Package_DIP:DIP-16_W7.62mm_LongPads</footprint>
+      <libsource lib="100-MHz-TTL-CMOS-rescue" part="ULN2003-Transistor_Array-100-MHz-TTL-CMOS-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="100 MHz TTL CMOS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006071750e</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x10_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Horizontal</footprint>
+      <libsource lib="100-MHz-TTL-CMOS-rescue" part="Conn_01x10_Male-Connector-100-MHz-TTL-CMOS-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="100 MHz TTL CMOS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060502e3e</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_Coaxial</value>
+      <footprint>Connector_Coaxial:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="100-MHz-TTL-CMOS-rescue" part="Conn_Coaxial-Connector-100-MHz-TTL-CMOS-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="100 MHz TTL CMOS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000605011a9</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x04_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <libsource lib="100-MHz-TTL-CMOS-rescue" part="Conn_01x04_Male-Connector-100-MHz-TTL-CMOS-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="100 MHz TTL CMOS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060643382</tstamps>
+    </comp>
+    <comp ref="K1">
+      <value>UMS05-1A80-75D</value>
+      <footprint>Relay_THT:Relay_SPST_StandexMeder_MS_Form1AB</footprint>
+      <datasheet>https://standexelectronics.com/de/produkte/ums-reed-relais/</datasheet>
+      <libsource lib="New_Library" part="UMS05-1A80-75D" description="Standex Meder UMS reed relay, SPST, Closing Contact, with diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="100 MHz TTL CMOS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006050abf7</tstamps>
+    </comp>
+    <comp ref="K2">
+      <value>UMS05-1A80-75D</value>
+      <footprint>Relay_THT:Relay_SPST_StandexMeder_MS_Form1AB</footprint>
+      <datasheet>https://standexelectronics.com/de/produkte/ums-reed-relais/</datasheet>
+      <libsource lib="New_Library" part="UMS05-1A80-75D" description="Standex Meder UMS reed relay, SPST, Closing Contact, with diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="100 MHz TTL CMOS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006050e551</tstamps>
+    </comp>
+    <comp ref="K3">
+      <value>UMS05-1A80-75D</value>
+      <footprint>Relay_THT:Relay_SPST_StandexMeder_MS_Form1AB</footprint>
+      <datasheet>https://standexelectronics.com/de/produkte/ums-reed-relais/</datasheet>
+      <libsource lib="New_Library" part="UMS05-1A80-75D" description="Standex Meder UMS reed relay, SPST, Closing Contact, with diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="100 MHz TTL CMOS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006050ef28</tstamps>
+    </comp>
+    <comp ref="K4">
+      <value>UMS05-1A80-75D</value>
+      <footprint>Relay_THT:Relay_SPST_StandexMeder_MS_Form1AB</footprint>
+      <datasheet>https://standexelectronics.com/de/produkte/ums-reed-relais/</datasheet>
+      <libsource lib="New_Library" part="UMS05-1A80-75D" description="Standex Meder UMS reed relay, SPST, Closing Contact, with diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="100 MHz TTL CMOS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006050f595</tstamps>
+    </comp>
+    <comp ref="K5">
+      <value>UMS05-1A80-75D</value>
+      <footprint>Relay_THT:Relay_SPST_StandexMeder_MS_Form1AB</footprint>
+      <datasheet>https://standexelectronics.com/de/produkte/ums-reed-relais/</datasheet>
+      <libsource lib="New_Library" part="UMS05-1A80-75D" description="Standex Meder UMS reed relay, SPST, Closing Contact, with diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="100 MHz TTL CMOS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060d168cf</tstamps>
+    </comp>
+    <comp ref="K6">
+      <value>UMS05-1A80-75D</value>
+      <footprint>Relay_THT:Relay_SPST_StandexMeder_MS_Form1AB</footprint>
+      <datasheet>https://standexelectronics.com/de/produkte/ums-reed-relais/</datasheet>
+      <libsource lib="New_Library" part="UMS05-1A80-75D" description="Standex Meder UMS reed relay, SPST, Closing Contact, with diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="100 MHz TTL CMOS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060e233eb</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>1M</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="100-MHz-TTL-CMOS-rescue" part="R-Device-100-MHz-TTL-CMOS-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="100 MHz TTL CMOS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000605255df</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>330</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="100-MHz-TTL-CMOS-rescue" part="R-Device-100-MHz-TTL-CMOS-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="100 MHz TTL CMOS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060524e5a</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>4,7k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <libsource lib="100-MHz-TTL-CMOS-rescue" part="R-Device-100-MHz-TTL-CMOS-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="100 MHz TTL CMOS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006119abad</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>4,7k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <libsource lib="100-MHz-TTL-CMOS-rescue" part="R-Device-100-MHz-TTL-CMOS-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="100 MHz TTL CMOS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006119ba1b</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>4,7k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="100-MHz-TTL-CMOS-rescue" part="R-Device-100-MHz-TTL-CMOS-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="100 MHz TTL CMOS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000605429f0</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="100-MHz-TTL-CMOS-rescue" part="R-Device-100-MHz-TTL-CMOS-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="100 MHz TTL CMOS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060542f3e</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>4,7k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="100-MHz-TTL-CMOS-rescue" part="R-Device-100-MHz-TTL-CMOS-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="100 MHz TTL CMOS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060537959</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>4,7k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="100-MHz-TTL-CMOS-rescue" part="R-Device-100-MHz-TTL-CMOS-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="100 MHz TTL CMOS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060537e80</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>4,7k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <libsource lib="100-MHz-TTL-CMOS-rescue" part="R-Device-100-MHz-TTL-CMOS-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="100 MHz TTL CMOS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006119c647</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>4,7k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <libsource lib="100-MHz-TTL-CMOS-rescue" part="R-Device-100-MHz-TTL-CMOS-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="100 MHz TTL CMOS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000616cd517</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>4,7k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <libsource lib="100-MHz-TTL-CMOS-rescue" part="R-Device-100-MHz-TTL-CMOS-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="100 MHz TTL CMOS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000616cdcf0</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>4,7k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <libsource lib="100-MHz-TTL-CMOS-rescue" part="R-Device-100-MHz-TTL-CMOS-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="100 MHz TTL CMOS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000616cdf96</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_DIP_x04</value>
+      <footprint>Button_Switch_THT:SW_DIP_SPSTx04_Slide_9.78x12.34mm_W7.62mm_P2.54mm</footprint>
+      <libsource lib="100-MHz-TTL-CMOS-rescue" part="SW_DIP_x04-Switch-100-MHz-TTL-CMOS-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="100 MHz TTL CMOS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000610f6fc9</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_DIP_x04</value>
+      <footprint>Button_Switch_THT:SW_DIP_SPSTx04_Slide_9.78x12.34mm_W7.62mm_P2.54mm</footprint>
+      <libsource lib="100-MHz-TTL-CMOS-rescue" part="SW_DIP_x04-Switch-100-MHz-TTL-CMOS-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="100 MHz TTL CMOS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000615cc934</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="100-MHz-TTL-CMOS-rescue" part="74HC14-74xx-100-MHz-TTL-CMOS-rescue">
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74HC14-74xx-100-MHz-TTL-CMOS-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="output"/>
+        <pin num="3" name="" type="input"/>
+        <pin num="4" name="" type="output"/>
+        <pin num="5" name="" type="input"/>
+        <pin num="6" name="" type="output"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="" type="output"/>
+        <pin num="9" name="" type="input"/>
+        <pin num="10" name="" type="output"/>
+        <pin num="11" name="" type="input"/>
+        <pin num="12" name="" type="output"/>
+        <pin num="13" name="" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="100-MHz-TTL-CMOS-rescue" part="74LS151-74xx-100-MHz-TTL-CMOS-rescue">
+      <footprints>
+        <fp>DIP?16*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LS151-74xx-100-MHz-TTL-CMOS-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="I3" type="input"/>
+        <pin num="2" name="I2" type="input"/>
+        <pin num="3" name="I1" type="input"/>
+        <pin num="4" name="I0" type="input"/>
+        <pin num="5" name="Z" type="output"/>
+        <pin num="6" name="~{Z}" type="output"/>
+        <pin num="7" name="~{E}" type="input"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="S2" type="input"/>
+        <pin num="10" name="S1" type="input"/>
+        <pin num="11" name="S0" type="input"/>
+        <pin num="12" name="I7" type="input"/>
+        <pin num="13" name="I6" type="input"/>
+        <pin num="14" name="I5" type="input"/>
+        <pin num="15" name="I4" type="input"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="100-MHz-TTL-CMOS-rescue" part="BAT43-Diode-100-MHz-TTL-CMOS-rescue">
+      <footprints>
+        <fp>D*DO?35*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">BAT43-Diode-100-MHz-TTL-CMOS-rescue</field>
+        <field name="Footprint">Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="100-MHz-TTL-CMOS-rescue" part="C-Device-100-MHz-TTL-CMOS-rescue">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-Device-100-MHz-TTL-CMOS-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="100-MHz-TTL-CMOS-rescue" part="Conn_01x04_Male-Connector-100-MHz-TTL-CMOS-rescue">
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Male-Connector-100-MHz-TTL-CMOS-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="100-MHz-TTL-CMOS-rescue" part="Conn_01x10_Male-Connector-100-MHz-TTL-CMOS-rescue">
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x10_Male-Connector-100-MHz-TTL-CMOS-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="100-MHz-TTL-CMOS-rescue" part="Conn_Coaxial-Connector-100-MHz-TTL-CMOS-rescue">
+      <footprints>
+        <fp>*BNC*</fp>
+        <fp>*SMA*</fp>
+        <fp>*SMB*</fp>
+        <fp>*SMC*</fp>
+        <fp>*Cinch*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_Coaxial-Connector-100-MHz-TTL-CMOS-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="In" type="passive"/>
+        <pin num="2" name="Ext" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="100-MHz-TTL-CMOS-rescue" part="MCP23017_SO-Interface_Expansion-100-MHz-TTL-CMOS-rescue">
+      <footprints>
+        <fp>SOIC*7.5x17.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP23017_SO-Interface_Expansion-100-MHz-TTL-CMOS-rescue</field>
+        <field name="Footprint">Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GPB0" type="bidirectional"/>
+        <pin num="2" name="GPB1" type="bidirectional"/>
+        <pin num="3" name="GPB2" type="bidirectional"/>
+        <pin num="4" name="GPB3" type="bidirectional"/>
+        <pin num="5" name="GPB4" type="bidirectional"/>
+        <pin num="6" name="GPB5" type="bidirectional"/>
+        <pin num="7" name="GPB6" type="bidirectional"/>
+        <pin num="8" name="GPB7" type="bidirectional"/>
+        <pin num="9" name="VDD" type="power_in"/>
+        <pin num="10" name="VSS" type="power_in"/>
+        <pin num="11" name="NC" type="no_connect"/>
+        <pin num="12" name="SCK" type="input"/>
+        <pin num="13" name="SDA" type="bidirectional"/>
+        <pin num="14" name="NC" type="no_connect"/>
+        <pin num="15" name="A0" type="input"/>
+        <pin num="16" name="A1" type="input"/>
+        <pin num="17" name="A2" type="input"/>
+        <pin num="18" name="~{RESET}" type="input"/>
+        <pin num="19" name="INTB" type="tri_state"/>
+        <pin num="20" name="INTA" type="tri_state"/>
+        <pin num="21" name="GPA0" type="bidirectional"/>
+        <pin num="22" name="GPA1" type="bidirectional"/>
+        <pin num="23" name="GPA2" type="bidirectional"/>
+        <pin num="24" name="GPA3" type="bidirectional"/>
+        <pin num="25" name="GPA4" type="bidirectional"/>
+        <pin num="26" name="GPA5" type="bidirectional"/>
+        <pin num="27" name="GPA6" type="bidirectional"/>
+        <pin num="28" name="GPA7" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="100-MHz-TTL-CMOS-rescue" part="R-Device-100-MHz-TTL-CMOS-rescue">
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-Device-100-MHz-TTL-CMOS-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="100-MHz-TTL-CMOS-rescue" part="SW_DIP_x04-Switch-100-MHz-TTL-CMOS-rescue">
+      <footprints>
+        <fp>SW?DIP?x4*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_DIP_x04-Switch-100-MHz-TTL-CMOS-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+        <pin num="7" name="" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="100-MHz-TTL-CMOS-rescue" part="ULN2003-Transistor_Array-100-MHz-TTL-CMOS-rescue">
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SOIC*3.9x9.9mm*P1.27mm*</fp>
+        <fp>SSOP*4.4x5.2mm*P0.65mm*</fp>
+        <fp>TSSOP*4.4x5mm*P0.65mm*</fp>
+        <fp>SOIC*W*5.3x10.2mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ULN2003-Transistor_Array-100-MHz-TTL-CMOS-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="I1" type="input"/>
+        <pin num="2" name="I2" type="input"/>
+        <pin num="3" name="I3" type="input"/>
+        <pin num="4" name="I4" type="input"/>
+        <pin num="5" name="I5" type="input"/>
+        <pin num="6" name="I6" type="input"/>
+        <pin num="7" name="I7" type="input"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="COM" type="passive"/>
+        <pin num="10" name="O7" type="open_collector"/>
+        <pin num="11" name="O6" type="open_collector"/>
+        <pin num="12" name="O5" type="open_collector"/>
+        <pin num="13" name="O4" type="open_collector"/>
+        <pin num="14" name="O3" type="open_collector"/>
+        <pin num="15" name="O2" type="open_collector"/>
+        <pin num="16" name="O1" type="open_collector"/>
+      </pins>
+    </libpart>
+    <libpart lib="Memory_EEPROM" part="24LC256">
+      <description>I2C Serial EEPROM, 256Kb, DIP-8/SOIC-8/TSSOP-8/DFN-8</description>
+      <docs>http://ww1.microchip.com/downloads/en/devicedoc/21203m.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SOIC*3.9x4.9mm*</fp>
+        <fp>TSSOP*4.4x3mm*P0.65mm*</fp>
+        <fp>DFN*3x2mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">24LC256</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/devicedoc/21203m.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A0" type="input"/>
+        <pin num="2" name="A1" type="input"/>
+        <pin num="3" name="A2" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="SDA" type="bidirectional"/>
+        <pin num="6" name="SCL" type="input"/>
+        <pin num="7" name="WP" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="New_Library" part="UMS05-1A80-75D">
+      <description>Standex Meder UMS reed relay, SPST, Closing Contact, with diode</description>
+      <docs>https://standexelectronics.com/de/produkte/ums-reed-relais/</docs>
+      <footprints>
+        <fp>Relay*StandexMeder*UMS*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">UMS05-1A80-75D</field>
+        <field name="Footprint">Relay_THT:Relay_StandexMeder_UMS</field>
+        <field name="Datasheet">https://standexelectronics.com/de/produkte/ums-reed-relais/</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="7" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="100-MHz-TTL-CMOS-rescue">
+      <uri>C:\Projekte\Frequency Counter\V1.0\SchaltungKiCad\100 MHz TTL CMOS/100 MHz TTL CMOS-rescue.lib</uri>
+    </library>
+    <library logical="Memory_EEPROM">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Memory_EEPROM.kicad_sym</uri>
+    </library>
+    <library logical="New_Library">
+      <uri>C:/Users/d028312/OneDrive - SAP SE/Documents/New_Library.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/BUTTON">
+      <node ref="IC2" pin="1" pinfunction="GPB0" pintype="bidirectional"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="2" name="/FREQUENCY">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="K6" pin="1" pintype="passive"/>
+    </net>
+    <net code="3" name="/LED">
+      <node ref="IC2" pin="2" pinfunction="GPB1" pintype="bidirectional"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="4" name="/PERIOD">
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="K5" pin="1" pintype="passive"/>
+    </net>
+    <net code="5" name="/SCL">
+      <node ref="IC2" pin="12" pinfunction="SCK" pintype="input"/>
+      <node ref="IC4" pin="6" pinfunction="SCL" pintype="input"/>
+      <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="6" name="/SDA">
+      <node ref="IC2" pin="13" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="IC4" pin="5" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="J1" pin="9" pinfunction="Pin_9" pintype="passive"/>
+    </net>
+    <net code="7" name="/SEL_CMOS">
+      <node ref="IC2" pin="24" pinfunction="GPA3" pintype="bidirectional"/>
+      <node ref="IC6" pin="2" pinfunction="I2" pintype="input"/>
+    </net>
+    <net code="8" name="/SEL_FREQUENCY">
+      <node ref="IC2" pin="21" pinfunction="GPA0" pintype="bidirectional"/>
+      <node ref="IC6" pin="6" pinfunction="I6" pintype="input"/>
+    </net>
+    <net code="9" name="/SEL_OPEN_COLLECTOR">
+      <node ref="IC2" pin="26" pinfunction="GPA5" pintype="bidirectional"/>
+      <node ref="IC6" pin="4" pinfunction="I4" pintype="input"/>
+    </net>
+    <net code="10" name="/SEL_OPEN_EMMITTER">
+      <node ref="IC2" pin="25" pinfunction="GPA4" pintype="bidirectional"/>
+      <node ref="IC6" pin="3" pinfunction="I3" pintype="input"/>
+    </net>
+    <net code="11" name="/SEL_PERIOD">
+      <node ref="IC2" pin="22" pinfunction="GPA1" pintype="bidirectional"/>
+      <node ref="IC6" pin="5" pinfunction="I5" pintype="input"/>
+    </net>
+    <net code="12" name="/SEL_TTL">
+      <node ref="IC2" pin="23" pinfunction="GPA2" pintype="bidirectional"/>
+      <node ref="IC6" pin="1" pinfunction="I1" pintype="input"/>
+    </net>
+    <net code="13" name="GND">
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="IC1" pin="11" pintype="input"/>
+      <node ref="IC1" pin="13" pintype="input"/>
+      <node ref="IC1" pin="5" pintype="input"/>
+      <node ref="IC1" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="IC1" pin="9" pintype="input"/>
+      <node ref="IC2" pin="10" pinfunction="VSS" pintype="power_in"/>
+      <node ref="IC3" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="IC4" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="IC4" pin="7" pinfunction="WP" pintype="input"/>
+      <node ref="IC5" pin="12" pinfunction="I7" pintype="input"/>
+      <node ref="IC5" pin="13" pinfunction="I6" pintype="input"/>
+      <node ref="IC5" pin="14" pinfunction="I5" pintype="input"/>
+      <node ref="IC5" pin="15" pinfunction="I4" pintype="input"/>
+      <node ref="IC5" pin="7" pinfunction="~{E}" pintype="input"/>
+      <node ref="IC5" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="IC5" pin="9" pinfunction="S2" pintype="input"/>
+      <node ref="IC6" pin="7" pinfunction="I7" pintype="input"/>
+      <node ref="IC6" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Ext" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(C11-Pad2)">
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="K1" pin="1" pintype="passive"/>
+      <node ref="K2" pin="1" pintype="passive"/>
+      <node ref="K3" pin="1" pintype="passive"/>
+      <node ref="K4" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(IC1-Pad1)">
+      <node ref="IC1" pin="1" pintype="input"/>
+      <node ref="K1" pin="7" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(IC1-Pad2)">
+      <node ref="IC1" pin="2" pintype="output"/>
+      <node ref="IC1" pin="3" pintype="input"/>
+    </net>
+    <net code="17" name="Net-(IC1-Pad4)">
+      <node ref="IC1" pin="4" pintype="output"/>
+      <node ref="IC3" pin="5" pintype="input"/>
+    </net>
+    <net code="18" name="Net-(IC2-Pad15)">
+      <node ref="IC2" pin="15" pinfunction="A0" pintype="input"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="3" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(IC2-Pad16)">
+      <node ref="IC2" pin="16" pinfunction="A1" pintype="input"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="2" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(IC2-Pad17)">
+      <node ref="IC2" pin="17" pinfunction="A2" pintype="input"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="1" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(IC2-Pad27)">
+      <node ref="IC2" pin="27" pinfunction="GPA6" pintype="bidirectional"/>
+      <node ref="IC5" pin="11" pinfunction="S0" pintype="input"/>
+    </net>
+    <net code="22" name="Net-(IC2-Pad28)">
+      <node ref="IC2" pin="28" pinfunction="GPA7" pintype="bidirectional"/>
+      <node ref="IC5" pin="10" pinfunction="S1" pintype="input"/>
+    </net>
+    <net code="23" name="Net-(IC3-Pad1)">
+      <node ref="IC3" pin="1" pintype="input"/>
+      <node ref="IC3" pin="3" pintype="input"/>
+      <node ref="IC5" pin="5" pinfunction="Z" pintype="output"/>
+    </net>
+    <net code="24" name="Net-(IC3-Pad2)">
+      <node ref="IC3" pin="2" pintype="output"/>
+      <node ref="K5" pin="7" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(IC3-Pad4)">
+      <node ref="IC3" pin="4" pintype="output"/>
+      <node ref="K6" pin="7" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(IC3-Pad6)">
+      <node ref="IC3" pin="6" pintype="output"/>
+      <node ref="IC5" pin="4" pinfunction="I0" pintype="input"/>
+    </net>
+    <net code="27" name="Net-(IC3-Pad8)">
+      <node ref="IC3" pin="8" pintype="output"/>
+      <node ref="IC5" pin="3" pinfunction="I1" pintype="input"/>
+    </net>
+    <net code="28" name="Net-(IC3-Pad9)">
+      <node ref="IC3" pin="9" pintype="input"/>
+      <node ref="K2" pin="7" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(IC3-Pad10)">
+      <node ref="IC3" pin="10" pintype="output"/>
+      <node ref="IC5" pin="2" pinfunction="I2" pintype="input"/>
+    </net>
+    <net code="30" name="Net-(IC3-Pad11)">
+      <node ref="IC3" pin="11" pintype="input"/>
+      <node ref="K4" pin="7" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="31" name="Net-(IC3-Pad12)">
+      <node ref="IC3" pin="12" pintype="output"/>
+      <node ref="IC5" pin="1" pinfunction="I3" pintype="input"/>
+    </net>
+    <net code="32" name="Net-(IC3-Pad13)">
+      <node ref="IC3" pin="13" pintype="input"/>
+      <node ref="K3" pin="7" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(IC4-Pad1)">
+      <node ref="IC4" pin="1" pinfunction="A0" pintype="input"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="SW2" pin="8" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(IC4-Pad2)">
+      <node ref="IC4" pin="2" pinfunction="A1" pintype="input"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="SW2" pin="7" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(IC4-Pad3)">
+      <node ref="IC4" pin="3" pinfunction="A2" pintype="input"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="SW2" pin="6" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(IC6-Pad11)">
+      <node ref="IC6" pin="11" pinfunction="O6" pintype="open_collector"/>
+      <node ref="K6" pin="5" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(IC6-Pad12)">
+      <node ref="IC6" pin="12" pinfunction="O5" pintype="open_collector"/>
+      <node ref="K5" pin="5" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(IC6-Pad13)">
+      <node ref="IC6" pin="13" pinfunction="O4" pintype="open_collector"/>
+      <node ref="K3" pin="5" pintype="passive"/>
+    </net>
+    <net code="39" name="Net-(IC6-Pad14)">
+      <node ref="IC6" pin="14" pinfunction="O3" pintype="open_collector"/>
+      <node ref="K4" pin="5" pintype="passive"/>
+    </net>
+    <net code="40" name="Net-(IC6-Pad15)">
+      <node ref="IC6" pin="15" pinfunction="O2" pintype="open_collector"/>
+      <node ref="K2" pin="5" pintype="passive"/>
+    </net>
+    <net code="41" name="Net-(IC6-Pad16)">
+      <node ref="IC6" pin="16" pinfunction="O1" pintype="open_collector"/>
+      <node ref="K1" pin="5" pintype="passive"/>
+    </net>
+    <net code="42" name="Net-(J2-Pad1)">
+      <node ref="J2" pin="1" pinfunction="In" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="43" name="VCC">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="IC1" pin="14" pinfunction="VCC" pintype="power_in"/>
+      <node ref="IC2" pin="18" pinfunction="~{RESET}" pintype="input"/>
+      <node ref="IC2" pin="9" pinfunction="VDD" pintype="power_in"/>
+      <node ref="IC3" pin="14" pinfunction="VCC" pintype="power_in"/>
+      <node ref="IC4" pin="8" pinfunction="VCC" pintype="power_in"/>
+      <node ref="IC5" pin="16" pinfunction="VCC" pintype="power_in"/>
+      <node ref="IC6" pin="9" pinfunction="COM" pintype="passive"/>
+      <node ref="J1" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="K1" pin="3" pintype="passive"/>
+      <node ref="K2" pin="3" pintype="passive"/>
+      <node ref="K3" pin="3" pintype="passive"/>
+      <node ref="K4" pin="3" pintype="passive"/>
+      <node ref="K5" pin="3" pintype="passive"/>
+      <node ref="K6" pin="3" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="6" pintype="passive"/>
+      <node ref="SW1" pin="7" pintype="passive"/>
+      <node ref="SW1" pin="8" pintype="passive"/>
+      <node ref="SW2" pin="1" pintype="passive"/>
+      <node ref="SW2" pin="2" pintype="passive"/>
+      <node ref="SW2" pin="3" pintype="passive"/>
+    </net>
+    <net code="44" name="unconnected-(IC1-Pad6)">
+      <node ref="IC1" pin="6" pintype="output+no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(IC1-Pad8)">
+      <node ref="IC1" pin="8" pintype="output+no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(IC1-Pad10)">
+      <node ref="IC1" pin="10" pintype="output+no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(IC1-Pad12)">
+      <node ref="IC1" pin="12" pintype="output+no_connect"/>
+    </net>
+    <net code="48" name="unconnected-(IC2-Pad3)">
+      <node ref="IC2" pin="3" pinfunction="GPB2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(IC2-Pad4)">
+      <node ref="IC2" pin="4" pinfunction="GPB3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="50" name="unconnected-(IC2-Pad5)">
+      <node ref="IC2" pin="5" pinfunction="GPB4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="51" name="unconnected-(IC2-Pad6)">
+      <node ref="IC2" pin="6" pinfunction="GPB5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="52" name="unconnected-(IC2-Pad7)">
+      <node ref="IC2" pin="7" pinfunction="GPB6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="53" name="unconnected-(IC2-Pad8)">
+      <node ref="IC2" pin="8" pinfunction="GPB7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="54" name="unconnected-(IC2-Pad11)">
+      <node ref="IC2" pin="11" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="55" name="unconnected-(IC2-Pad14)">
+      <node ref="IC2" pin="14" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="56" name="unconnected-(IC2-Pad19)">
+      <node ref="IC2" pin="19" pinfunction="INTB" pintype="tri_state+no_connect"/>
+    </net>
+    <net code="57" name="unconnected-(IC2-Pad20)">
+      <node ref="IC2" pin="20" pinfunction="INTA" pintype="tri_state+no_connect"/>
+    </net>
+    <net code="58" name="unconnected-(IC5-Pad6)">
+      <node ref="IC5" pin="6" pinfunction="~{Z}" pintype="output+no_connect"/>
+    </net>
+    <net code="59" name="unconnected-(IC6-Pad10)">
+      <node ref="IC6" pin="10" pinfunction="O7" pintype="open_collector+no_connect"/>
+    </net>
+    <net code="60" name="unconnected-(J1-Pad4)">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="61" name="unconnected-(SW1-Pad4)">
+      <node ref="SW1" pin="4" pintype="passive+no_connect"/>
+    </net>
+    <net code="62" name="unconnected-(SW1-Pad5)">
+      <node ref="SW1" pin="5" pintype="passive+no_connect"/>
+    </net>
+    <net code="63" name="unconnected-(SW2-Pad4)">
+      <node ref="SW2" pin="4" pintype="passive+no_connect"/>
+    </net>
+    <net code="64" name="unconnected-(SW2-Pad5)">
+      <node ref="SW2" pin="5" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>
