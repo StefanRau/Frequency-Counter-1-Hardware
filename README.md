@@ -5,4 +5,4 @@ CAD data of Frequency Counter Version 1
 ## Front Plate
 ![](/Frontplatte/Frontplatte.jpg)
 ## 100 MHz TTL CMOS
-![]("/100 MHz TTL CMOS/100 MHz TTL CMOS.jpg")
+![](/100%20MHz%20TTL%20CMOS/100%20MHz%20TTL%20CMOS.jpg)
