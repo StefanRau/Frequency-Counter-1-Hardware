@@ -150,7 +150,10 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "power_pin_not_driven|1270000|1905000|a64c4b18-45ea-4519-ac7f-d65cf9d7cf65|00000000-0000-0000-0000-000000000000",
+      "power_pin_not_driven|1562100|317500|e273d73f-8139-45f5-8134-aa0879a1a97c|00000000-0000-0000-0000-000000000000"
+    ],
     "meta": {
       "version": 0
     },
@@ -393,7 +396,8 @@
         "name": "Power",
         "nets": [
           "GND",
-          "VCC"
+          "VCC",
+          "VDD"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",

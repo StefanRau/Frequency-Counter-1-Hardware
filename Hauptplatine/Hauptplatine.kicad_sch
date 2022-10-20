@@ -68,6 +68,12 @@
     (path "/00000000-0000-0000-0000-000060420630/00000000-0000-0000-0000-000060a96ae1"
       (reference "#GND0106") (unit 1) (value "GND-Zähler-eagle-import") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-0000604205f9/d62e70d5-286d-48a0-b860-cee3761feb92"
+      (reference "#PWR01") (unit 1) (value "VDD") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000604268cf/7bd0b346-ef15-4d92-8f4e-0d176d6b1d37"
+      (reference "#PWR02") (unit 1) (value "VDD") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-0000604205c5/1a7b6644-bf3f-4fa0-9f92-1040b4bdecf0"
       (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
     )
@@ -119,6 +125,9 @@
     (path "/00000000-0000-0000-0000-0000604268cf/cf5dc1f6-8059-46a1-bba6-faceb62b412f"
       (reference "#PWR0117") (unit 1) (value "VCC") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-0000604205f9/d9bbfcb0-e31c-4341-8738-4e66f1a91c17"
+      (reference "C1") (unit 1) (value "100n") (footprint "Capacitor_THT:C_Rect_L10.0mm_W4.0mm_P7.50mm_FKS3_FKP3")
+    )
     (path "/00000000-0000-0000-0000-000060420630/00000000-0000-0000-0000-0000a60240aa"
       (reference "C4") (unit 1) (value "100n") (footprint "Capacitor_THT:C_Rect_L10.0mm_W4.0mm_P7.50mm_FKS3_FKP3")
     )
@@ -139,6 +148,12 @@
     )
     (path "/00000000-0000-0000-0000-0000604268cf/00000000-0000-0000-0000-00006045cc29"
       (reference "D1") (unit 1) (value "GBU4A") (footprint "Diode_THT:Diode_Bridge_Vishay_GBU")
+    )
+    (path "/00000000-0000-0000-0000-0000604205f9/03467210-1407-4231-9fdf-170a6ca912e9"
+      (reference "D2") (unit 1) (value "1N4148") (footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-0000604205f9/4e73b446-5894-44ce-a499-fc0374cfff1d"
+      (reference "D3") (unit 1) (value "1N4148") (footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-0000604268cf/00000000-0000-0000-0000-00006046881b"
       (reference "F1") (unit 1) (value "Fuse") (footprint "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open")
@@ -215,7 +230,7 @@
     (path "/00000000-0000-0000-0000-0000604205f9/00000000-0000-0000-0000-00006062e9b3"
       (reference "IC12") (unit 1) (value "Arduino_Nano_v2.x") (footprint "Module:Arduino_Nano")
     )
-    (path "/00000000-0000-0000-0000-0000604205c5/00000000-0000-0000-0000-000036b08934"
+    (path "/00000000-0000-0000-0000-000060420630/b06fc55f-2124-4d42-94d1-6fe99f693cb5"
       (reference "IC20") (unit 1) (value "74HC04") (footprint "Package_DIP:DIP-14_W7.62mm_LongPads")
     )
     (path "/00000000-0000-0000-0000-0000604205c5/00000000-0000-0000-0000-000036b08928"
@@ -334,6 +349,12 @@
     )
     (path "/00000000-0000-0000-0000-000060420630/00000000-0000-0000-0000-000060d65f99"
       (reference "R10") (unit 1) (value "4k7") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-0000604205f9/6ff487b6-c88a-472b-a40a-c61477bae949"
+      (reference "R11") (unit 1) (value "1k") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-0000604205f9/c8c5a786-794a-4d78-87d4-48f198f66bb4"
+      (reference "R12") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-0000604205f9/00000000-0000-0000-0000-00000500c13c"
       (reference "SV2") (unit 1) (value "MA10") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical")
