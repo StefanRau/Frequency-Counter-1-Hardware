@@ -1734,7 +1734,7 @@
     (property "Footprint" "Package_DIP:DIP-14_W7.62mm_LongPads" (id 2) (at 227.33 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hc00.pdf?ts=1621578104858&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FSN74HC00%253FkeyMatch%253D%2526tisearch%253Dsearch-everything%2526usecase%253Dpartmatches" (id 3) (at 227.33 80.01 0)
+    (property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC00" (id 3) (at 227.33 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 8c2147d9-bf6f-48ba-b88f-c92ee448eba0))
